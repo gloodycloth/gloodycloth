@@ -25,7 +25,11 @@ class NF_AJAX_Controllers_Submission extends NF_Abstracts_Controller
 
     public function submit()
     {
+<<<<<<< HEAD
         check_ajax_referer( 'ninja_forms_display_nonce', 'security' );
+=======
+        check_ajax_referer( 'ninja_forms_ajax_nonce', 'security' );
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
         if( ! $this->_form_data ) {
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 jQuery(document).ready(function(jQuery) {
 
@@ -11,6 +12,10 @@ jQuery(document).ready(function(jQuery) {
 
 var init_all_the_ninja_things = function() {
 
+=======
+jQuery(document).ready(function(jQuery) {
+
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 	// Prevent the enter key from submitting the form.
 	jQuery(".ninja-forms-form input").bind("keypress", function(e) {
 		if (e.keyCode == 13) {
@@ -725,7 +730,11 @@ var init_all_the_ninja_things = function() {
 			}
 		}
 	});
+<<<<<<< HEAD
 }
+=======
+}); //End document.ready
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
 function ninja_forms_before_submit( formData, jqForm, options ){
 	var form_id = jQuery( jqForm ).prop( 'id' ).replace( 'ninja_forms_form_', '' );

@@ -4,6 +4,7 @@ final class NF_VersionSwitcher
 {
     public function __construct()
     {
+<<<<<<< HEAD
         $this->ajax_check();
 
         add_action( 'init', array( $this, 'version_bypass_check' ) );
@@ -46,6 +47,17 @@ final class NF_VersionSwitcher
     {
         if( ! current_user_can( apply_filters( 'ninja_forms_admin_version_switcher_capabilities', 'manage_options' ) ) ) return;
 
+=======
+        $this->listener();
+
+        if( defined( 'WP_DEBUG' ) && WP_DEBUG ) {
+            add_action('admin_bar_menu', array($this, 'admin_bar_menu'), 999);
+        }
+    }
+
+    public function listener()
+    {
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
         if( isset( $_GET[ 'nf-switcher' ] ) ){
 
             switch( $_GET[ 'nf-switcher' ] ){
@@ -67,7 +79,11 @@ final class NF_VersionSwitcher
     {
         $args = array(
             'id'    => 'nf',
+<<<<<<< HEAD
             'title' => 'Ninja Forms Dev',
+=======
+            'title' => 'Ninja Forms DEBUG',
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
             'href'  => '#',
         );
         $wp_admin_bar->add_node( $args );
@@ -122,6 +138,7 @@ function nf_fs() {
                 'contact' => false,
             ),
         ) );
+<<<<<<< HEAD
 
             if ( function_exists( 'fs_override_i18n' ) ) {
         fs_override_i18n( array(
@@ -129,6 +146,8 @@ function nf_fs() {
                 'deactivation-share-reason' => __( 'If you have a moment, please let us know why you are deactivating (optional)', 'ninja-forms' ),
             ), 'ninja-forms' );
         }
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
     }
 
     return $nf_fs;

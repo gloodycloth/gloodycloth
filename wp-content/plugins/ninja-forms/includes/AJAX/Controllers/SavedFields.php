@@ -11,7 +11,11 @@ class NF_AJAX_Controllers_SavedFields extends NF_Abstracts_Controller
 
     public function create()
     {
+<<<<<<< HEAD
         check_ajax_referer( 'ninja_forms_builder_nonce', 'security' );
+=======
+        check_ajax_referer( 'ninja_forms_ajax_nonce', 'security' );
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
         if( ! isset( $_POST[ 'field' ] ) ){
             $this->_errors[] = 'Field Not Found';
@@ -32,7 +36,11 @@ class NF_AJAX_Controllers_SavedFields extends NF_Abstracts_Controller
 
     public function update()
     {
+<<<<<<< HEAD
         check_ajax_referer( 'ninja_forms_builder_nonce', 'security' );
+=======
+        check_ajax_referer( 'ninja_forms_ajax_nonce', 'security' );
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
         if( ! isset( $_POST[ 'field' ] ) ){
             $this->_errors[] = 'Field Not Found';
@@ -44,7 +52,11 @@ class NF_AJAX_Controllers_SavedFields extends NF_Abstracts_Controller
 
     public function delete()
     {
+<<<<<<< HEAD
         check_ajax_referer( 'ninja_forms_settings_nonce', 'security' );
+=======
+        check_ajax_referer( 'ninja_forms_ajax_nonce', 'security' );
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
         if( ! isset( $_POST[ 'field' ] ) ){
             $this->_errors[] = 'Field Not Found';

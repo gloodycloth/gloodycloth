@@ -16,8 +16,11 @@ final class NF_Admin_Menus_Licenses
 
     public function submit_listener()
     {
+<<<<<<< HEAD
         if( ! current_user_can( apply_filters( 'ninja_forms_admin_license_update_capabilities', 'manage_options' ) ) ) return;
 
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
         if( ! isset( $_POST[ 'ninja_forms_license' ] ) || ! $_POST[ 'ninja_forms_license' ] ) return;
 
         $key    = sanitize_text_field( $_POST[ 'ninja_forms_license' ][ 'key' ]    );

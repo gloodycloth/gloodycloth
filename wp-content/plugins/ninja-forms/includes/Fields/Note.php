@@ -13,9 +13,13 @@ class NF_Fields_Note extends NF_Fields_Hidden
 
     protected $_section = '';
 
+<<<<<<< HEAD
     protected $_icon = 'sticky-note-o';
 
     protected $_aliases = array( 'notes', 'info' );
+=======
+    protected $_templates = '';
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
     protected $_settings_only = array(
         'label', 'default'
@@ -25,6 +29,7 @@ class NF_Fields_Note extends NF_Fields_Hidden
     {
         parent::__construct();
 
+<<<<<<< HEAD
         $this->_settings[ 'value_mirror' ] = array(
             'name' => 'value_mirror',
             'type' => 'html',
@@ -47,6 +52,14 @@ class NF_Fields_Note extends NF_Fields_Hidden
         add_filter( 'ninja_forms_display_type_note', '__return_false' );
         add_filter( 'ninja_forms_preview_display_type_note', '__return_false' );
 
+=======
+        $this->_settings[ 'label' ][ 'width' ] = 'full';
+        $this->_settings[ 'default' ][ 'group' ] = 'primary';
+        $this->_settings[ 'default' ][ 'type' ] = 'textarea';
+
+        $this->_nicename = __( 'Note', 'ninja-forms' );
+
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
         add_filter( 'nf_sub_hidden_field_types', array( $this, 'hide_field_type' ) );
     }
 

@@ -18,7 +18,11 @@ final class NF_Actions_SuccessMessage extends NF_Abstracts_Action
     /**
     * @var string
     */
+<<<<<<< HEAD
     protected $_timing = 'late';
+=======
+    protected $_timing = 'normal';
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
     /**
     * @var int

@@ -94,6 +94,7 @@
 <script id="nf-tmpl-main-content-fields-empty" type="text/template">
     <div class="nf-fields-empty">
         <h3>Add form fields</h3>
+<<<<<<< HEAD
         <p>Get started by adding your first form field. <a class="nf-open-drawer" title="Add New Field" href="#" data-drawerid="addField">Just click here and select the fields you want.</a> It’s that easy. Or...
         <h3>Start from a template</h3>
         <a href="?page=ninja-forms&form_id=formtemplate-contactform" class="nf-one-third template-box">
@@ -126,6 +127,9 @@
                 <p class="template-desc">Add subscribers and grow your email list with this newsletter signup form. You can add and remove fields as needed.</p>
             </div>
         </a> -->
+=======
+        <p>Get started by adding your first form field. Just click the plus and select the fields you want. It’s that easy.</p>
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
     </div>
 </script>
 
@@ -449,6 +453,7 @@
     </label>
 </script>
 
+<<<<<<< HEAD
 <script id="nf-tmpl-edit-setting-field-select" type="text/template">
     <label for="<%= name %>" class="nf-select"><%= label %> <%= renderTooltip() %>
         <select id="<%= name %>" class="setting">
@@ -464,6 +469,8 @@
     </label>
 </script>
 
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 <script id="nf-tmpl-edit-setting-checkbox" type="text/template">
 
     <span class="nf-setting-label"><%= label %></span> <%= renderTooltip() %>
@@ -558,12 +565,15 @@
     </div>
 </script>
 
+<<<<<<< HEAD
 <script id="nf-tmpl-edit-setting-html" type="text/template">
     <div class="nf-note">
         <%= value %>
     </div>
 </script>
 
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 <!-- Calculation Row Template -->
 
 <script id="nf-tmpl-edit-setting-calculation-repeater-row" type="text/template">

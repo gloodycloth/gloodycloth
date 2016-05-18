@@ -227,8 +227,11 @@ class NF_Admin_AllFormsTable extends WP_List_Table
 
     public static function process_bulk_action()
     {
+<<<<<<< HEAD
         if( ! isset( $_GET[ 'page' ] ) || 'ninja-forms' != $_GET[ 'page' ] ) return;
 
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
         if ( isset( $_REQUEST[ 'action' ] ) && 'duplicate' === $_REQUEST[ 'action' ] ) {
 
             // In our file that handles the request, verify the nonce.
@@ -266,6 +269,7 @@ class NF_Admin_AllFormsTable extends WP_List_Table
             || ( isset( $_POST['action2'] ) && $_POST['action2'] == 'bulk-delete' )
         ) {
 
+<<<<<<< HEAD
             // In our file that handles the request, verify the nonce.
             $nonce = esc_attr( $_REQUEST['_wpnonce'] );
 
@@ -281,6 +285,14 @@ class NF_Admin_AllFormsTable extends WP_List_Table
 
                     self::delete_item(absint($id));
                 }
+=======
+            $delete_ids = esc_sql( $_POST['bulk-delete'] );
+
+            // loop over the array of record IDs and delete them
+            foreach ( $delete_ids as $id ) {
+
+                self::delete_item( absint( $id ) );
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
             }
 
             wp_redirect( admin_url( 'admin.php?page=ninja-forms' ) );

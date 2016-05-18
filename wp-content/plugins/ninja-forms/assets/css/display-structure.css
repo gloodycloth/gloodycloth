@@ -424,6 +424,7 @@ HONEYPOT
     color: #444;
     background-color: transparent; } }
 
+<<<<<<< HEAD
 .nf-loading-spinner {
   width: 40px;
   height: 40px;
@@ -451,6 +452,8 @@ HONEYPOT
             transform: scale(1);
     opacity: 0; } }
 
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 /*
 Make sure all Ninja Forms label positons function properly
 ---------------------------------------------*/

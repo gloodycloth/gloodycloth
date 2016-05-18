@@ -3,7 +3,11 @@ Contributors: wpninjasllc, kstover, jameslaws, wpnzach, kbjohnson90, aman086, da
 Tags: form, forms, contact form, custom form, form builder, form creator, form manager, form creation, contact forms, custom forms, forms builder, forms creator, forms manager, forms creation, form administration,
 Requires at least: 4.3
 Tested up to: 4.5
+<<<<<<< HEAD
 Stable tag: 2.9.45
+=======
+Stable tag: 2.9.42
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 License: GPLv2 or later
 
 Create forms and manage submissions easily with a simple drag and drop interface. Contact forms, subscription forms, or any other form for WordPress.
@@ -97,6 +101,7 @@ For help and video tutorials, please visit our website: [Ninja Forms Documentati
 
 == Upgrade Notice ==
 
+<<<<<<< HEAD
 = 2.9.45 (2 May 2016) =
 
 *Bugs:*
@@ -127,6 +132,16 @@ For help and video tutorials, please visit our website: [Ninja Forms Documentati
 
 * Fixed an important security issue related to the 3.0 codebase. It is recommended that all users update to 2.9.43 as soon as possible.
 
+=======
+= 2.9.42 (14 April 2016) =
+
+*Bugs:*
+
+* 3.0: Fixed a bug that could cause merge tags to disappear underneath the full-screen builder.
+
+== Changelog ==
+
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 = 2.9.42 (14 April 2016) =
 
 *Bugs:*

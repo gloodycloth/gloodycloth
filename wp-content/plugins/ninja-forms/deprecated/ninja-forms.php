@@ -265,7 +265,11 @@ class Ninja_Forms {
 
         // Plugin version
         if ( ! defined( 'NF_PLUGIN_VERSION' ) )
+<<<<<<< HEAD
             define( 'NF_PLUGIN_VERSION', '2.9.45' );
+=======
+            define( 'NF_PLUGIN_VERSION', '2.9.42' );
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
         // Plugin Folder Path
         if ( ! defined( 'NF_PLUGIN_DIR' ) )

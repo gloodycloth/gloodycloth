@@ -47,7 +47,11 @@ final class NF_Display_Preview
     {
         if ( ! is_user_logged_in() ) return __( 'You must be logged in to preview a form.', 'ninja-forms' );
 
+<<<<<<< HEAD
         return do_shortcode( "[nf_preview id='{$this->_form_id}']" );
+=======
+        return do_shortcode( "[nf_tmp_preview id='{$this->_form_id}']" );
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
     }
 
     /**

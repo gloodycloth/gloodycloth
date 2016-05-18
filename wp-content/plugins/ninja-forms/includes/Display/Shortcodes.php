@@ -4,11 +4,15 @@ final class NF_Display_Shortcodes
 {
     public function __construct()
     {
+<<<<<<< HEAD
         add_shortcode( 'nf_preview',  array( $this, 'display_form_preview' ) );
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
         add_shortcode( 'ninja_form',  array( $this, 'display_form_front_end' ) );
         add_shortcode( 'ninja_forms', array( $this, 'display_form_front_end' ) );
     }
 
+<<<<<<< HEAD
     public function display_form_preview( $atts = array() )
     {
         if( ! isset( $atts[ 'id' ] ) ) return $this->display_no_id();
@@ -18,6 +22,8 @@ final class NF_Display_Shortcodes
         return ob_get_clean();
     }
 
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
     public function display_form_front_end( $atts = array() )
     {
         if( ! isset( $atts[ 'id' ] ) ) return $this->display_no_id();

@@ -115,7 +115,11 @@ class NF_Abstracts_ModelFactory
     public function import_form( $import, $id = FALSE, $is_conversion = FALSE )
     {
         $import = maybe_unserialize( $import );
+<<<<<<< HEAD
         return NF_Database_Models_Form::import( $import, $id, $is_conversion );
+=======
+        NF_Database_Models_Form::import( $import, $id, $is_conversion );
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
     }
 
     /*

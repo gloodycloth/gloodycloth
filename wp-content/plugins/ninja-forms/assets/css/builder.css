@@ -140,7 +140,11 @@ Header and Nav for Ninja Forms App
 #nf-main-content,
 #nf-main-header {
   margin: 0 auto;
+<<<<<<< HEAD
   max-width: 800px;
+=======
+  max-width: 700px;
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -161,13 +165,20 @@ Header and Nav for Ninja Forms App
   border-left: 5px solid yellow; }
 
 .nf-fields-empty {
+<<<<<<< HEAD
   padding: 0 40px; }
+=======
+  padding: 40px 20%; }
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
   .nf-fields-empty h3 {
     font-size: 30px; }
   .nf-fields-empty p {
     font-size: 18px; }
+<<<<<<< HEAD
   .nf-fields-empty a {
     text-decoration: none; }
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 
 .nf-field-label {
   display: inline-block;
@@ -182,6 +193,7 @@ Header and Nav for Ninja Forms App
   margin-right: 10px;
   width: 24px; }
 
+<<<<<<< HEAD
 .template-box {
   text-decoration: none; }
   .template-box .template-box-inside {
@@ -205,6 +217,8 @@ Header and Nav for Ninja Forms App
     -webkit-transition: all 0.2s ease-in-out 0.1s, box-shadow 0.2s ease-in-out 0.1s;
     transition: all 0.2s ease-in-out 0.1s, box-shadow 0.2s ease-in-out 0.1s; }
 
+=======
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
 .nf-setting-wrap {
   cursor: pointer;
   float: left;
@@ -275,6 +289,10 @@ Form field placeholders for the fields a user has added to their form
       display: none; }
       .nf-item-controls li.nf-item-expand .dashicons {
         -webkit-transform: rotate(-90deg);
+<<<<<<< HEAD
+=======
+            -ms-transform: rotate(-90deg);
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
                 transform: rotate(-90deg); }
     .nf-item-controls li .nf-item-editing {
       display: none; }
@@ -360,6 +378,10 @@ Form field placeholders for the fields a user has added to their form
     color: #84CC1E; }
     .nf-group-wrap.expanded .nf-item-expand .dashicons {
       -webkit-transform: rotate(90deg);
+<<<<<<< HEAD
+=======
+          -ms-transform: rotate(90deg);
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
               transform: rotate(90deg); }
     .nf-group-wrap.expanded .nf-field-wrap {
       opacity: 1.0;
@@ -416,6 +438,10 @@ All styles used within the drawer
     transition: all 0.50s ease; }
     .nf-drawer-opened #nf-drawer.nf-drawer-expand .nf-toggle-drawer .dashicons {
       -webkit-transform: rotate(180deg);
+<<<<<<< HEAD
+=======
+          -ms-transform: rotate(180deg);
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
               transform: rotate(180deg);
       -webkit-transition: all 0.50s ease;
       transition: all 0.50s ease; }
@@ -1018,6 +1044,10 @@ Various custom field styles
       background: #fff;
       color: #84CC1E;
       -webkit-transform: rotate(180deg);
+<<<<<<< HEAD
+=======
+          -ms-transform: rotate(180deg);
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
               transform: rotate(180deg);
       -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; }
@@ -1416,6 +1446,10 @@ All styles used for displaying table content
       border: 3px solid #fff;
       border-radius: 100%;
       -webkit-transform: transformZ(0);
+<<<<<<< HEAD
+=======
+          -ms-transform: transformZ(0);
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
               transform: transformZ(0);
       -webkit-animation: LOADING 2s infinite;
               animation: LOADING 2s infinite; }
@@ -2023,6 +2057,10 @@ label.has-merge-tags .merge-tags {
       display: none; }
       .nf-item-controls li.nf-item-expand .dashicons {
         -webkit-transform: rotate(-90deg);
+<<<<<<< HEAD
+=======
+            -ms-transform: rotate(-90deg);
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
                 transform: rotate(-90deg); }
     .nf-item-controls li .nf-item-editing {
       display: none; }

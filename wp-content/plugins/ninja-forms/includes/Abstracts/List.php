@@ -30,7 +30,11 @@ abstract class NF_Abstracts_List extends NF_Abstracts_Field
 
     public function get_parent_type()
     {
+<<<<<<< HEAD
         return 'list';
+=======
+        return parent::get_type();
+>>>>>>> a1eca4bf0077364949b64d53c7e76f88657445db
     }
 
     public function admin_form_element( $id, $value )
